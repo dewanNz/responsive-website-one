@@ -60,6 +60,48 @@ nav li a {
   width: 100%;
 }
 
+/* main styles */
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* team style */
+.teams-container {
+  display: flex;
+  align-items: center;
+}
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.teams-content {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.teams-title {
+  font-size: 2.8rem;
+}
+
+.ft-part-1 {
+  font-weight: 500;
+  color: #727272;
+}
+.ft-part-2 {
+  font-weight: 700;
+  color: #131313;
+}
+.ft-part-3 {
+  font-weight: 700;
+  color: #ff900e;
+}
+.teams-description {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+}
 /* Resposive design for small device */
 @media screen and (max-width: 576px) {
   header {
